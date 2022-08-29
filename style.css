@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 7rem;
+}
+
+.reset-button {
+  align-self: flex-end;
+}
+
+.scoreboard-container {
+  width: 100%;
+  height: auto;
+  background-color: rgba(11, 4, 213, 0.4);
+  border: .2rem solid #1F51FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scoreboard-container .row:first-child {
+  justify-content: center;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.score {
+  width: 100%;
+  border: .2rem solid #1F51FF;
+  font-size: 10rem;
+  border-radius: .2rem;
+  text-align: center;
+}
+
+#score-buttons {
+  justify-content: center;
+}
+
+.score-controls {
+  border: .2rem solid black;
+  border-radius: .2rem;
+  width: fit-content;
+}
